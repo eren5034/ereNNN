@@ -2,89 +2,198 @@
 <html lang="en">
 
 <head>
-    <style>
-        .container {
-            width: 202px;
-            border: 1px solid rgb(123, 123, 219);
-            border-radius: 10px;
-            padding: 10px;
-            color: black;
-        
-        }
-        .container2 {
-            overflow-y: scroll;
-            width: 202px;
-            border: 1px solid rgb(123, 123, 219);
-            border-radius: 10px;
-            padding: 10px;
-            color: black;
-        
-        }
-
-        .contant{
-            overflow: auto;
-            display: flex;
-            flex-direction: column;
-            height: 150px;
-            margin: left 100px;
-
-           
-        
-        }
-        li{
-            list-style-type: none;   
-            margin:50;   
-        }
-        ul{
-            padding: 0px;
-        }
-        .a{
-            margin: 5px;
-            color: blue;
-        }
-    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <title>Mevlüt Eren Aydın`Programlama Eğitimleri</title>
+    <meta name="keywords" content="Python,JavaSCRİPT,Java">
+    <meta name="description" content="Mevlüt Eren Aydın`Programlama Eğitimleri">
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+   
+    <!--TABLE-->
+    <link rel="stylesheet" media="(max-width:768px)" href="../css/tablet.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="../css/mobile.css" />
 </head>
 
 <body>
-    <div class="container">
-        <h4 class="a">Lokasyon</h4>
-        <div class="contant">
-            
-            <ul>
-                
-                <li><input type="checkbox"></input><label for="">Adana</label></li>
-                <li><input type="checkbox">Adıyaman</input></li>
-                <li><input type="checkbox">Afyonkarahisar</input></li>
-                <li><input type="checkbox">Ağrı</input></li>
-                <li><input type="checkbox">İstanbul</input></li>
-                <li><input type="checkbox">Nevşehir</input></li>
-                <li><input type="checkbox">Ankara</input></li>
-                <li><input type="checkbox">Mersin</input></li>
-                <li><input type="checkbox">Isparta </input></li>
-                <li><input type="checkbox">Tokat</input></li>
-                <li><input type="checkbox">İzmir</input></li>
-            </ul>
-           
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Mevlüt Eren Aydın</h1>
+
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#training">Eğitimler</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
         </div>
-        
-    </div>
-<br><br>
-<div class="container2">
-    <h4 class="a">Üyelik Sınıfı</h4>
-        <ul>
-            <li><input type="checkbox"></input><label for="">A</label></li>
-            <li><input type="checkbox">B</input></li>
-            <li><input type="checkbox">C</input></li>
-            <li><input type="checkbox">D</input></li>
-        </ul>
-       
-    </div>
-    
+    </header>
+    <section id="home">
+
+        <img src="eee.jpg" alt="Mevlüt Eren Aydın">
+        <div class="name text-center">
+            <h2 class="heading-big">Mevlüt Eren Aydın</h2>
+            <p>Computer Engineer l Founder Of Yazılım Bilim</p>
+        </div>
+        <a href="#courses" class="btn btn-primary">Kurslara git</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Eğitimler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa-solid fa-pencil"></i>
+                <h3>Sınıf içi eğitimler</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, facilis.</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-pencil"></i>
+                <h3>Online içerikler</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, facilis.</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-pencil"></i>
+                <h3>Konferanslar</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, facilis.
+
+                </p>
+            </article>
 </div>
+</section>
+<section id="courses">
+    <h3 class="text-center heading medium">Kurslar</h3>
+
+    <div class="container">
+    <div class="courses">
+    <div class="course">
+    <div class="course-image">
+    <img class="ds" src="python_logo.png" alt="ptyhon">
+    <span>%90 İndirim </span>
+    </div>
+   <div class="course-info">
+<div class="title">
+     Komple java geliştirici
+</div>
+<div class="description"> Sıfırdan öğretim</div>
+<div class="instructor">Mevlüt Eren Aydın</div>
+<div class="rating">4.6 (7000oylama)</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="courses">
+        <div class="course">
+        <div class="course-image">
+        <img class="ds" src="python_logo.png" alt="ptyhon">
+        <span>%90 İndirim </span>
+        </div>
+       <div class="course-info">
+    <div class="title">
+         Komple java geliştirici
+    </div>
+    <div class="description"> Sıfırdan öğretim</div>
+    <div class="instructor">Mevlüt Eren Aydın</div>
+    <div class="rating">4.6 (7000oylama)</div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="courses">
+            <div class="course">
+            <div class="course-image">
+            <img class="ds" src="python_logo.png" alt="ptyhon">
+            <span>%90 İndirim </span>
+            </div>
+           <div class="course-info">
+        <div class="title">
+             Komple java geliştirici
+        </div>
+        <div class="description"> Sıfırdan öğretim</div>
+        <div class="instructor">Mevlüt Eren Aydın</div>
+        <div class="rating">4.6 (7000oylama)</div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="container">
+                <div class="courses">
+                <div class="course">
+                <div class="course-image">
+                <img class="ds" src="python_logo.png" alt="ptyhon">
+                <span>%90 İndirim </span>
+                </div>
+               <div class="course-info">
+            <div class="title">
+                 Komple java geliştirici
+            </div>
+            <div class="description"> Sıfırdan öğretim</div>
+            <div class="instructor">Mevlüt Eren Aydın</div>
+            <div class="rating">4.6 (7000oylama)</div>
+                </div>
+                </div>
+                </div>
+                </div>
+
+</section>
+<footer id="contact" class="bg-dark-blue">
+    <div class="contact-form">
+        <form>
+            <h4 class="text-center heading medium">Bana ulaşın </h4>
+            <div class="form-group">
+            <label for="name">İsim</label>
+            <input 
+            type="text" 
+            class="form-control"
+            name="name"
+            id="name"
+            placeholder="İsim"
+            />
+            </div>
+            <div class="form-group">
+                <label for="email">email</label>
+                <input 
+                type="text" 
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                />
+                </div>
+                <div class="form-group">
+                <label for="message">mesaj</label>
+               <textarea 
+                name="message" 
+                id="message"
+                class="form-control"
+                rows="5"
+                placeholder="Mesajınız..."  
+                ></textarea>
+                </div>  
+                <button type="submit" class="btn btn-block">Gönder</button>
+        </form>
+        <div class="social">
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+  
 
 
+    </div>
+</footer>
+</body>
 </html>
